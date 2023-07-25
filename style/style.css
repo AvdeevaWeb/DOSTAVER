@@ -84,7 +84,7 @@ header{
 
 .main-header{
     margin-top: 66px;
-    background-image: url(/img/main-header-bck.png);
+    background-image: url(img/main-header-bck.png);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -191,7 +191,7 @@ header{
 }
 /*--------------------------------------------*/
 .main-cost-calculation{
-    background-image: url(/img/main-cost-calculation-bck.png);
+    background-image: url(img/main-cost-calculation-bck.png);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -285,7 +285,7 @@ tr:last-child>th:first-child{
 
 /*---------------------------------*/
 .main-about{
-    background-image: url(/img/about-bck.png);
+    background-image: url(img/about-bck.png);
     margin-top: 68px;
     display: flex;
     flex-direction: column;
@@ -359,7 +359,7 @@ tr:last-child>th:first-child{
 
 .main-payment-terminal{
     margin-top: 160px;
-    background-image: url(/img/main-payment-bck.png);
+    background-image: url(img/main-payment-bck.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -488,7 +488,7 @@ tr:last-child>th:first-child{
 }
 /*-----------------------------------*/
 .main-experience{
-    background-image: url(/img/Frame.png);
+    background-image: url(img/Frame.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-position-y: 20px;
@@ -537,7 +537,7 @@ tr:last-child>th:first-child{
     width: 404px;
     height: 404px;
     border-radius: 50%;
-    background-image: url(/img/img-profile.png);
+    background-image: url(img/img-profile.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
