@@ -96,7 +96,7 @@ header{
     background-position: center;    
     background-size: cover;   
     color: var(--light-text-color);
-   padding-bottom: 400px;
+   padding-bottom: 500px;
 }
 
 .main-header__title{
@@ -863,7 +863,7 @@ tr:last-child>th:first-child{
         
     }
     .header-section__nav ul{
-        padding-top: 50px;
+        padding-top: 100px;
     }
     .header-section__logo{
         padding:  22px ;
