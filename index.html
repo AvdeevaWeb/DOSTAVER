@@ -14,6 +14,7 @@
 <body>
     <header>
         <section class="header-section">
+
             <nav class="header-section__nav">
                 <ul>
                     <li><a class="header-section-nav__item"  href="">Правила</a></li>
@@ -21,10 +22,20 @@
                     <li><a class="header-section-nav__item" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="header-section__logo">
-                <img src="img/logo.png" alt="logo">
-                <span>DOSTAVER</span>
+            <div class="menu-btn-mobile">
+                
+                <div class="header-section__logo">
+                    <img src="img/logo.png" alt="logo">
+                    <span>DOSTAVER</span>
+                </div>
+                <div class="menu-btn">
+                    <span class="menu-btn_line"></span>
+                    <span class="menu-btn_line"></span>
+                    <span class="menu-btn_line"></span>
+                </div>
             </div>
+            
+
             <div class="header-section__contact-us">
                 <div class="contact-us__telephone">
                     <span>+7 499 408 47 70</span>
@@ -63,7 +74,7 @@
             <h2>Стоимость курьерских услуг</h2>
             <p>Вес и стоимость в таблице указаны для одной доставки</p>
             <div class="main-cost-calculation__conteiner">
-                <img class="main-cost-calculation__img-map1" src="img/img-map1.png"  alt="">
+            
                 <div class= main-cost-calculation__table-conteiner>
                     <table class="main-cost-calculation__table">
                         <tr>
@@ -131,7 +142,7 @@
                         </tr>
                     </table>
                 </div>
-                <img class="main-cost-calculation__img-map2" src="img/img-map2.png"  alt="">
+                
             </div>
             <img class="main-cost-calculation__img-plus" src="img/icon-plus.png" alt="plus">
         </section>
@@ -236,24 +247,34 @@
                 <h2>Мой опыт — ваша гарантия качественных услуг доставки</h2>
                 <p>Будем знакомы — <strong>Владислав Каткаев</strong> , основатель курьерской службы Dostaver, лично контролирую работу курьеров.</p>
                 <div class="main-experience-conteiner__statistic">
-                    <div class="statistic__1 statistic-item">
-                        <span>6 лет</span>
-                        <p>с 2016 работаю в сфере курьерских доставок</p>
+                    
+                    <div class="first-line">
+                        <div class="statistic__1 statistic-item">
+                            <span>6 лет</span>
+                            <p>с 2016 работаю в сфере курьерских доставок</p>
+                        </div>
+                        <div class="statistic__5 statistic-item" >
+                            <img src="img/img-profile.png" alt="">
+                        </div>
+                        <div class="statistic__2 statistic-item">
+                            <span>12</span>
+                            <p>собрал команду из 12 курьеров (пешие + авто)</p>
+                        </div>
                     </div>
-                    <div class="statistic__5 statistic-item" ></div>
-                    <div class="statistic__2 statistic-item">
-                        <span>12</span>
-                        <p>собрал команду из 12 курьеров (пешие + авто)</p>
+
+                    <div class="second-line">
+                        <div class="statistic__3 statistic-item">
+                            <span>4000+</span>
+                            <p>доставил более 4000
+                                разных посылок</p>
+                        </div>
+                        <div class="statistic__4 statistic-item">
+                            <span>2700+</span>
+                            <p>клиентов из YouDo оценили мою работу на 5по статистике за 3 года работы — с 2019 по 2021</p>
+                            <img src="img/statistic-3.png" alt="">
+                        </div>
                     </div>
-                    <div class="statistic__3 statistic-item">
-                        <span>4000+</span>
-                        <p>доставил минимум 4000 разных посылок</p>
-                    </div>
-                    <div class="statistic__4 statistic-item">
-                        <span>2700+</span>
-                        <p>клиентов из YouDo оценили мою работу на 5по статистике за 3 года работы — с 2019 по 2021</p>
-                        <img src="img/statistic-3.png" alt="">
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -284,5 +305,6 @@
             </div>
         </section>
     </footer>
+    <script src="script/menu-btn.js"></script>
 </body>
 </html>
