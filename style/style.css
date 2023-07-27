@@ -83,7 +83,7 @@ header{
 
 .main-header{
     margin-top: 66px;
-    background-image: url(../img/main-header-bck.png);
+    background-image: url(..../img/main-header-bck.png);
     background-repeat: no-repeat;
     background-position: center;    
     background-size: cover;   
