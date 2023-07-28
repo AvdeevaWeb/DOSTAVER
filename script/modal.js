@@ -6,14 +6,14 @@ const radioInput2 = document.querySelector('.ptivacy__real-radio2')
 const contactBtn2 = document.querySelector('.contact-btn2')
 
 const contantForm = document.querySelectorAll('.contant-form')
-const complate = document.querySelectorAll('.main-header__communication')
+
 
 
 contactBtn.addEventListener('click', function(){
     if(radioInput.checked){
         contantForm[0].value = ''
         modal.classList.toggle('visible')
-        complate.classList.add('test')
+    
     }
 })
 contactBtn2.addEventListener('click', function(){
