@@ -850,7 +850,7 @@ tr:last-child>th:first-child{
         width: 80%;
         font-size: 2rem;
         line-height: 20px;
-        text-align: justify;
+        text-align: start;
     }
     .main-header__title h1{
         font-size: 4rem;
@@ -860,7 +860,7 @@ tr:last-child>th:first-child{
     }
     .header-section__nav.active {
         transform: translateY(-20%); 
-        
+
     }
     .header-section__nav ul{
         padding-top: 100px;
@@ -870,11 +870,15 @@ tr:last-child>th:first-child{
     }
     .main-informing-conteiner__item{
         padding-top: 20px;
+        min-width: 150px;
+    }
+    .main-informing-conteiner__item p{
+        text-align: center;
     }
     .main-about-counteiner__item{
-        padding: 10px 10px 30px 10px;
+        padding: 30px 10px 50px 10px;
     }
     .main-informing__conteiner p{
-        text-align: justify;
+        text-align: start;
     }
 }
