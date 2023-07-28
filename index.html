@@ -14,7 +14,6 @@
 <body>
     <header>
         <section class="header-section">
-
             <nav class="header-section__nav">
                 <ul>
                     <li><a class="header-section-nav__item"  href="">Правила</a></li>
@@ -34,7 +33,6 @@
                     <span class="menu-btn_line"></span>
                 </div>
             </div>
-            
 
             <div class="header-section__contact-us">
                 <div class="contact-us__telephone">
@@ -58,8 +56,8 @@
                 <p>Обеспечим вашему бизнесу доставку точно в срок и с удобной возможностью оплаты заказов для вас и ваших клиентов</p>
            </div>
            <div class="main-header__communication">
-                <input type="text" placeholder="Введите номер телефона">
-                <button>ПЕРЕЗВОНИТЕ МНЕ</button>
+                <input type="number" class="contant-form"  placeholder="Введите номер телефона" >
+                <button class="contact-btn">ПЕРЕЗВОНИТЕ МНЕ</button>
            </div>
            <div class="main-header__privacy">
             <label class="main-header-privacy__checkbox" for="privacy">
@@ -207,8 +205,8 @@
                 <p> Ваши клиенты могут по факту оплачивать заказ картой и получать бумажный кассовый чек. </p>
             
             <div class="main-header__communication">
-                <input type="text" placeholder="Введите номер телефона">
-                <button>ОБСУДИТЬ СОТРУДНИЧЕСТВО</button>
+                <input type="number" class="contant-form" placeholder="Введите номер телефона">
+                <button class="contact-btn2">ОБСУДИТЬ СОТРУДНИЧЕСТВО</button>
            </div>
            <div class="main-payment-terminal__privacy">
             <label class="main-header-privacy__checkbox2" for="terminal__privacy">
@@ -305,6 +303,21 @@
             </div>
         </section>
     </footer>
+
+    <div class="modal">
+        <div class="modal__conteiner">
+            <button class="modal-conteiner__close-btn">
+                <img src="img/modal-btn.png" alt="">
+            </button>
+            <div class="modal-conteiner__content">
+                <img src="img/modal-img.png" alt="">
+                <h3>Спасибо за заявку!</h3>
+                <p>В ближайшее время мы свяжемся с вами</p>
+            </div>
+        </div> 
+    </div>
+
     <script src="script/menu-btn.js"></script>
+    <script src="script/modal.js"></script>
 </body>
 </html>
