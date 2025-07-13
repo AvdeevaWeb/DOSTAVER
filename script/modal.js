@@ -7,7 +7,7 @@ const contactBtn2 = document.querySelector('.contact-btn2')
 
 const contantForm = document.querySelectorAll('.contant-form')
 
-
+//EventListener 
 
 contactBtn.addEventListener('click', function(){
     if(radioInput.checked){
